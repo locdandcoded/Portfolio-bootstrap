@@ -1,2 +1,2 @@
-# Portfoilio-bootstrap
+# Portfolio-bootstrap
 Remaking basic portfolio using bootstrap

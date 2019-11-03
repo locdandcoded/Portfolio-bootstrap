@@ -1,0 +1,55 @@
+html {
+    background-image: url(assets\Images\cork-board.png);
+}
+
+body {
+    padding: 20px;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+
+}
+
+.container {
+    
+}
+
+.card-title {
+    text-align: center;
+    
+}
+.our-team {
+    border: 1px solid teal;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+    background-color: teal;
+}
+
+.our-team:hover {
+    background-color: white;
+    color: teal;
+}
+
+.our-team .pic {
+    position: relative;
+}
+
+.our-team .pic img {
+    height: auto;
+    transition: all 0.3s ease 0s;
+}
+.our-team:hover .pic img {
+    transform: translateY(-20px);
+}
+
+.img.card img {
+    align-self: auto;
+}
+
+.footer-copyright {
+    background-color: teal;
+    margin-top: 5px;
+}
